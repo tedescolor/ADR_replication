@@ -1,0 +1,7 @@
+task,config,rep,workdir,attempt
+s001,sonnet-60,0,/ws/runs/sonnet-60/s001,0
+s002,opus-60,0,/ws/runs/opus-60/s002,0
+s004,opus-60,1,/ws/runs/opus-60/s004,0
+s006,opus-60,2,/ws/runs/opus-60/s006,0
+s008,opus-60,3,/ws/runs/opus-60/s008,0
+s010,opus-60,4,/ws/runs/opus-60/s010,0

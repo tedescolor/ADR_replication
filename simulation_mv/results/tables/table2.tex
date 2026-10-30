@@ -1,0 +1,11 @@
+\begin{tabular}{@{}lrcccc@{}}
+\toprule
+Method & runs & AWD & $W_1|x_\mathrm{ring}$ & $W_1|x_\mathrm{trans}$ & $W_1|x_\mathrm{blobs}$ \\
+\midrule
+CPFN & 1 & 0.278 & 0.342 & 0.234 & 0.298 \\
+KCDE & 1 & 0.684 & 0.649 & 0.701 & 1.081 \\
+\rowcolor{agent}ADR, Sonnet 5.5, 60 min & 1 & 0.789 & 0.429 & 0.737 & 1.179 \\
+\rowcolor{agent}ADR, Opus 5.5, 60 min & 5 & 0.342 (0.294) & 0.293 (0.133) & 0.285 (0.277) & 0.433 (0.529) \\
+true model (floor, 1000 vs 1000 samples) &  & 0.171 & 0.215 & 0.155 & 0.094 \\
+\bottomrule
+\end{tabular}

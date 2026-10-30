@@ -1,0 +1,2 @@
+config,runs,minutes_median,minutes_max,turns_median,input_tokens_median,output_tokens_median,cost_usd_total
+opus-60,60,13.850000000000001,47.8,21.0,572867.0,14867.5,60.891747

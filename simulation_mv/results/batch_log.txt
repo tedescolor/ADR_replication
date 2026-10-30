@@ -1,0 +1,18 @@
+2026-10-03 07:29:54 UTC  prepared 2 tasks (sonnet-60, opus-60; runs [0])
+2026-10-03 07:30:06 UTC  locking the package while agents run
+2026-10-03 07:30:06 UTC  running 2 agents, 2 at a time (package locked)
+2026-10-03 07:42:29 UTC    s002: finished, 12.3 min, 44 turns
+2026-10-03 08:03:29 UTC    s001: finished, 33.3 min, 33 turns
+2026-10-03 08:03:31 UTC  done; leftovers killed, package unlocked
+2026-10-03 08:07:04 UTC  audit: 2/2 clean; details in results/audit.csv
+2026-10-03 08:09:43 UTC  archived 2 runs -> results/<config>/run<rep>/
+2026-10-26 13:46:30 UTC  prepared 4 tasks (opus-60; runs [1, 2, 3, 4])
+2026-10-26 13:48:31 UTC  locking the package while agents run
+2026-10-26 13:48:31 UTC  running 4 agents, 2 at a time (package locked)
+2026-10-26 14:26:01 UTC    s006: finished, 37.5 min, 66 turns
+2026-10-26 14:36:38 UTC    s004: finished, 48.1 min, 90 turns
+2026-10-26 14:54:52 UTC    s010: finished, 18.2 min, 1 turns
+2026-10-26 15:07:55 UTC    s008: finished, 41.9 min, 1 turns
+2026-10-26 15:07:57 UTC  done; leftovers killed, package unlocked
+2026-10-26 15:07:59 UTC  audit: 4/4 clean; details in results/audit.csv
+2026-10-26 15:08:00 UTC  archived 4 runs -> results/<config>/run<rep>/

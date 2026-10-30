@@ -1,0 +1,3 @@
+Table 1 of Franco & Tedesco, "Nonparametric estimation of conditional probability distributions using a
+generative approach based on conditional push-forward neural networks", arXiv:2511.14455 (Section 4.1):
+univariate simulation, mean (sd) over 100 Monte Carlo replicates. Transcribed from the PDF.

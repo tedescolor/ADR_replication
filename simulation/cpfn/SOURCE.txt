@@ -1,0 +1,10 @@
+Files copied unchanged from https://github.com/NicolaRFranco/CPFN at commit 6327b9188eeb46de3a421e8ce6ad421c90863925
+(Franco & Tedesco, arXiv:2511.14455). branched.ipynb: data generation (f, true_sample, MCrun), metrics
+(fastl1l1q_error, q_error). testcases/branched/qs_true.npy: true conditional quantiles, 101 x-grid points x 99 levels.
+License: see LICENSE.
+trained/branched1000ntrain_43.npz: the authors' trained CPFN for replicate 43 at n = 1000 (trained/branched/ in the
+  CPFN repository; branched.ipynb saves replicate j of n = 1000, seed 200 + j, as branched1000ntrain_j). It is fitted
+  to the same training set as the ADR runs n1000_r43, whose Opus 5.5 program is Program 1 of the manuscript. Used only by
+  generate_images/generate_figures.py for the univariate illustration, through a NumPy port of
+  generative.PushForward.sample; over the 100 trained n = 1000 networks, this port gives AWD 0.050 (0.008), against
+  0.051 (0.008) in Table 1.

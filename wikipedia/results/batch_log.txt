@@ -1,0 +1,36 @@
+2026-10-26 15:31:19 UTC  prepared fold 1: 1 task(s)
+2026-10-26 15:31:21 UTC  fold 1: locking the package while 1 agent(s) run
+2026-10-26 16:22:06 UTC    t01: finished, 50.7 min, 1 turns, $1.42
+2026-10-26 16:22:09 UTC  fold 1: done; leftovers killed, package unlocked
+2026-10-26 16:22:09 UTC  fold 1 audit: 1/1 clean
+2026-10-26 16:22:09 UTC  fold 1: archived 1 run(s) -> results/<config>/fold1/
+2026-10-26 16:22:11 UTC  fold 1: task dirs moved to /ws/b/done and locked
+2026-10-26 16:22:11 UTC  prepared fold 2: 1 task(s)
+2026-10-26 16:22:13 UTC  fold 2: locking the package while 1 agent(s) run
+2026-10-26 16:39:48 UTC    t02: finished, 17.6 min, 13 turns, $0.53
+2026-10-26 16:39:50 UTC  fold 2: done; leftovers killed, package unlocked
+2026-10-26 16:39:50 UTC  fold 2 audit: 1/1 clean
+2026-10-26 16:39:50 UTC  fold 2: archived 1 run(s) -> results/<config>/fold2/
+2026-10-26 16:39:52 UTC  fold 2: task dirs moved to /ws/b/done and locked
+2026-10-26 16:39:52 UTC  prepared fold 3: 1 task(s)
+2026-10-26 16:39:54 UTC  fold 3: locking the package while 1 agent(s) run
+2026-10-26 17:07:29 UTC    t03: finished, 27.6 min, 34 turns, $1.24
+2026-10-26 17:07:31 UTC  fold 3: done; leftovers killed, package unlocked
+2026-10-26 17:07:31 UTC  fold 3 audit: 1/1 clean
+2026-10-26 17:07:31 UTC  fold 3: archived 1 run(s) -> results/<config>/fold3/
+2026-10-26 17:07:33 UTC  fold 3: task dirs moved to /ws/b/done and locked
+2026-10-26 17:07:33 UTC  prepared fold 4: 1 task(s)
+2026-10-26 17:07:35 UTC  fold 4: locking the package while 1 agent(s) run
+2026-10-26 17:19:24 UTC    t04: finished, 11.8 min, 25 turns, $0.89
+2026-10-26 17:19:26 UTC  fold 4: done; leftovers killed, package unlocked
+2026-10-26 17:19:26 UTC  fold 4 audit: 1/1 clean
+2026-10-26 17:19:26 UTC  fold 4: archived 1 run(s) -> results/<config>/fold4/
+2026-10-26 17:19:28 UTC  fold 4: task dirs moved to /ws/b/done and locked
+2026-10-26 17:19:28 UTC  prepared fold 5: 1 task(s)
+2026-10-26 17:19:30 UTC  fold 5: locking the package while 1 agent(s) run
+2026-10-26 17:25:59 UTC    t05: finished, 6.4 min, 28 turns, $1.00
+2026-10-26 17:26:01 UTC  fold 5: done; leftovers killed, package unlocked
+2026-10-26 17:26:01 UTC  fold 5 audit: 1/1 clean
+2026-10-26 17:26:01 UTC  fold 5: archived 1 run(s) -> results/<config>/fold5/
+2026-10-26 17:26:03 UTC  fold 5: task dirs moved to /ws/b/done and locked
+2026-10-26 17:26:03 UTC  cycle done: folds [1, 2, 3, 4, 5]

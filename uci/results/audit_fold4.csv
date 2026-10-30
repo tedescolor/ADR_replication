@@ -1,0 +1,13 @@
+task,transcript,n_calls,web,network,outside,clean,config,dataset,fold,attempt
+t0074,agent_stream.jsonl,56,[],[],[],True,opus-60,energy,4,0
+t0076,agent_stream.jsonl,40,[],[],[],True,opus-60,synchronous,4,0
+t0078,agent_stream.jsonl,11,[],[],[],True,opus-60,localization,4,0
+t0080,agent_stream.jsonl,23,[],[],[],True,opus-60,toxicity,4,0
+t0082,agent_stream.jsonl,14,[],[],[],True,opus-60,concrete,4,0
+t0084,agent_stream.jsonl,22,[],[],[],True,opus-60,slump,4,0
+t0086,agent_stream.jsonl,13,[],[],[],True,opus-60,forestfires,4,0
+t0088,agent_stream.jsonl,35,[],[],[],True,opus-60,NavalPropolsion,4,0
+t0090,agent_stream.jsonl,33,[],[],[],True,opus-60,sml2010,4,0
+t0092,agent_stream.jsonl,30,[],[],[],True,opus-60,Thermography,4,0
+t0094,agent_stream.jsonl,33,[],[],[],True,opus-60,support2,4,0
+t0096,agent_stream.jsonl,27,[],[],[],True,opus-60,superconductivity,4,0

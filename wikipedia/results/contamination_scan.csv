@@ -1,0 +1,2 @@
+file,task,kind,term,context
+wikipedia/results/opus-60/fold4/agent_stream.jsonl.gz,agent_stream,source,categories,"int(np.percentile(r,[1,5,25,50,75,95,99]))\nprint(th.round(3))\n# relationship y1 vs y0 linear?\nfor c in pd.qcut(y0,8).categories: \n  m=(y0>c.left)&(y0<=c.right); print(c, y1[m].mean().round(2), y1[m].std().round(2), (y1[m]<0.3).mean().round(2))\nE"

@@ -1,0 +1,6 @@
+task,config,fold,workdir,attempt
+t01,opus-60,1,/ws/b/runs/opus-60/t01,0
+t02,opus-60,2,/ws/b/runs/opus-60/t02,0
+t03,opus-60,3,/ws/b/runs/opus-60/t03,0
+t04,opus-60,4,/ws/b/runs/opus-60/t04,0
+t05,opus-60,5,/ws/b/runs/opus-60/t05,0

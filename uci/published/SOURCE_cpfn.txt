@@ -1,0 +1,7 @@
+published/cpfn_uci.csv: test NLL of conditional push-forward networks (CPFN) on the same UCI data
+and folds, transcribed from Table 4 of Franco & Tedesco, arXiv:2511.14455v3 (22 Dec 2025): mean
+over five folds; no standard deviations are reported. CPFN was not run on SkillCraft and
+studentmath (discrete targets), which are not analysed here either. The paper applies
+y -> log(1 + y) on forestfires, superconductivity and support2 and reports the NLL on the original
+scale. Its baseline columns differ from Table 3 of Yang & van Leeuwen in a few cells; the baseline
+columns used here are those of Yang & van Leeuwen (published/table3_nll.csv).

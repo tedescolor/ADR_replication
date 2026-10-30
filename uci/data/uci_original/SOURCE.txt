@@ -1,0 +1,4 @@
+source: https://github.com/ylincen/CDTree @ b607e123cabd7e2ae2f297541f470d3c223a0002, CDTree/permuted_dataset/
+The same rows, in the same order, as data/uci/ (permuted_dataset_noiseadded) before the authors added
+Gaussian noise (sd = 0.01 sd of each column; add_small_noise_to_data.R). Used only by the scorer and
+by scripts/make_precision.py to fix the recording precision of each target. Never given to an agent.

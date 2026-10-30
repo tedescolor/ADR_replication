@@ -1,0 +1,3 @@
+config,runs,not_scored,minutes_median,turns_median,input_tokens_median,output_tokens_median,cost_usd_total
+sonnet-60,1,0,33.3,33.0,1011705.0,24922.0,0.6614099999999999
+opus-60,5,0,37.5,44.0,1616404.0,32124.0,11.4151746

@@ -1,0 +1,22 @@
+You are the orchestrator of a research analysis. All instructions are in simulation/README.md.
+Read it completely before doing anything.
+
+Your role: run the analysis exactly as the README specifies. That means the univariate simulation
+study of Franco & Tedesco (arXiv:2511.14455, Table 1), at n = 250 and n = 1000 with all 100 of
+the authors' Monte Carlo replicates, and 2 agent configurations, Sonnet 5.5 and Opus 5.5, each
+with a 60-minute budget. Everything needed is in the simulation/ folder, including the authors'
+notebook, the true quantiles, the published table and a tested pipeline in simulation/scripts/.
+Use these scripts; do not rewrite them and do not download anything.
+
+The number of agents to run in parallel (--parallel) is: 36.
+
+Rules:
+- The evaluated agents are launched only by scripts/batch.py (headless, sandboxed, no network),
+  never as sub-agents of this session.
+- Work through the numbered steps of README section 5. At every checkpoint, stop, report what
+  you did and what you found, and wait for my approval before continuing.
+- If a script fails or something does not work as described, report the exact error and ask
+  me. Never improvise a protocol choice.
+- Log every decision and deviation in simulation/results/audit_notes.md.
+
+Start with step 1 (setup) now.

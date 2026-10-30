@@ -1,0 +1,35 @@
+{
+ "levels_on_grid": true,
+ "true_model": {
+  "contract_ok": true,
+  "AWD": 0.017505246905884102,
+  "AQE_0.10": 0.011500960551107848,
+  "AQE_0.25": 0.009585659675707925,
+  "AQE_0.50": 0.1764838900324743,
+  "AQE_0.75": 0.010655625949374414,
+  "AQE_0.90": 0.012132668529704684,
+  "excess_nll": -4.795534629120634e-19
+ },
+ "wrong_model": {
+  "contract_ok": true,
+  "AWD": 0.6386906279973764,
+  "AQE_0.10": 0.3824559765523313,
+  "AQE_0.25": 0.40096883643048564,
+  "AQE_0.50": 0.5854346383729783,
+  "AQE_0.75": 0.8862227873668591,
+  "AQE_0.90": 0.9086270631431882,
+  "excess_nll": 1.4149146237526409
+ },
+ "qs_true_vs_regenerated_awd": 0.018752881130359646,
+ "training_deterministic": true,
+ "checks": {
+  "levels_on_grid": true,
+  "true_model_contract_ok": true,
+  "true_model_awd_at_floor": 1.0,
+  "true_model_excess_nll_zero": true,
+  "qs_true_matches_generator": 1.0,
+  "wrong_model_much_worse": true,
+  "training_deterministic": true
+ },
+ "passed": true
+}

@@ -1,0 +1,20 @@
+You are the orchestrator of a research analysis. All instructions are in simulation_mv/README.md.
+Read it completely before doing anything.
+
+Your role: run the analysis exactly as the README specifies. That means the multivariate test case
+of Franco & Tedesco (arXiv:2511.14455, Table 2), with the authors' own training and test data, one
+agent run for each of 2 configurations, Sonnet 5.5 and Opus 5.5, each with a 60-minute budget.
+Everything needed is in the simulation_mv/ folder, including the data, the published table and a
+tested pipeline in simulation_mv/scripts/. Use these scripts; do not rewrite them and do not
+download anything.
+
+Rules:
+- The evaluated agents are launched only by scripts/batch.py (headless, sandboxed, no network),
+  never as sub-agents of this session.
+- Work through the numbered steps of README section 5. At every checkpoint, stop, report what
+  you did and what you found, and wait for my approval before continuing.
+- If a script fails or something does not work as described, report the exact error and ask
+  me. Never improvise a protocol choice.
+- Log every decision and deviation in simulation_mv/results/audit_notes.md.
+
+Start with step 1 (setup) now.

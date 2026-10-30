@@ -1,0 +1,60 @@
+{
+ "model": "claude-opus-5-5",
+ "workdir": "/ws/b/runs/probe/p20261026163037",
+ "returncode": 0,
+ "stderr": "",
+ "checks": {
+  "tools_exactly_six": true,
+  "no_mcp_servers": true,
+  "no_skills": true,
+  "net_curl": true,
+  "net_python": true,
+  "read_home": true,
+  "read_other_task": true,
+  "read_settings": true,
+  "read_tmp": true,
+  "read_harness": true,
+  "read_package": true,
+  "find_harness": true,
+  "write_ws": true,
+  "write_other_task": true,
+  "write_tmp": true,
+  "python_ok": true,
+  "write_inside": true,
+  "read_tool_confined": true,
+  "no_identifying_words": true
+ },
+ "outputs": {
+  "net_curl": "curl: (56) CONNECT tunnel failed, response 403\n000EXIT=56\n<sandbox_violations>\ndeny network-outbound example.com:443 (user denied)\n</sandbox_violations>",
+  "net_python": "Traceback (most recent call last):\n  File \"/home/user/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/urllib/request.py\", line 1348, in do_open\n    h.request(req.get_method(), req.selector, req.data, headers,\n  File \"/home/user/.local/share/uv/python/cpython-3.11.15-li",
+  "read_home": "cat: /home/user/adr_probe_marker.txt: No such file or directory\nEXIT=1",
+  "read_other_task": "cat: /ws/b/runs/zz_other_task/marker.txt: No such file or directory\nEXIT=1",
+  "read_settings": "cat: /ws/b/settings/zz_marker.txt: No such file or directory\nEXIT=1",
+  "read_tmp": "cat: /tmp/adr_probe_marker.txt: No such file or directory\nEXIT=1",
+  "read_harness": "cat: /tmp/claude-1014/zz-probe-project/zz-session/tasks/zz_marker.output: No such file or directory\nEXIT=1",
+  "read_package": "cat: /home/user/adr_rep/wikipedia/README.md: No such file or directory\nEXIT=0",
+  "find_harness": "EXIT=0",
+  "write_ws": "touch: cannot touch '/ws/b/escape_test': Read-only file system\nEXIT=1",
+  "write_other_task": "touch: cannot touch '/ws/b/runs/zz_other_task/escape_test': No such file or directory\nEXIT=1",
+  "write_tmp": "EXIT=0",
+  "python_ok": "PY_OK",
+  "write_inside": "WRITE_OK",
+  "read_tool": "/home/user/.bashrc is outside /ws/b/runs/probe/p20261026163037; --restricted confines the file tools to the working directory."
+ },
+ "init": {
+  "tools": [
+   "Bash",
+   "Edit",
+   "Glob",
+   "Grep",
+   "Read",
+   "Write"
+  ],
+  "mcp_servers": [],
+  "skills": [],
+  "slash_commands": [],
+  "model": "claude-opus-5-5",
+  "permissionMode": "default"
+ },
+ "passed": true
+}

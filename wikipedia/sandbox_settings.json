@@ -1,0 +1,19 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "failIfUnavailable": true,
+    "allowUnsandboxedCommands": false,
+    "network": {
+      "allowedDomains": [],
+      "allowUnixSockets": [],
+      "allowAllUnixSockets": false,
+      "allowLocalBinding": false
+    },
+    "filesystem": {
+      "allowWrite": ["__TASK__"],
+      "denyRead": ["__HOME__", "/tmp", "__WS__/runs", "__WS__/settings"],
+      "allowRead": ["__TASK__", "__WS__/env", "__HOME__/.local/share/uv", "__HOME__/.local/lib"]
+    }
+  }
+}

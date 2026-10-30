@@ -1,0 +1,2 @@
+task,transcript,n_calls,web,network,outside,clean,config,fold,attempt
+t03,agent_stream.jsonl,33,[],[],[],True,opus-60,3,0

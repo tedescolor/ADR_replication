@@ -1,0 +1,19 @@
+You are the orchestrator of a research analysis. All instructions are in uci/README.md. Read it
+completely before doing anything.
+
+Your role: run the analysis exactly as the README specifies. That means the UCI benchmark of Yang
+& van Leeuwen (2024, Table 3), on its 12 datasets with a continuous target, with 2 agent configurations, Sonnet 5.5 and Opus 5.5, each with a
+60-minute budget, scored with the ordinary density NLL stated in the README. Everything needed
+is in the uci/ folder, including the data, the published table and a tested pipeline in
+uci/scripts/. Use these scripts; do not rewrite them and do not download the data.
+
+Rules:
+- The evaluated agents are launched only by scripts/wave.py (headless, sandboxed, no network),
+  never as sub-agents of this session.
+- Work through the numbered steps of README section 5. At every checkpoint, stop, report what
+  you did and what you found, and wait for my approval before continuing.
+- If a script fails or something does not work as described, report the exact error and ask
+  me. Never improvise a protocol choice.
+- Log every decision and deviation in uci/results/audit_notes.md.
+
+Start with step 1 (setup) now.

@@ -1,0 +1,3 @@
+Table 3 of Yang & van Leeuwen, "Conditional density estimation with histogram trees",
+NeurIPS 2024 (arXiv:2410.11449v1, Appendix D.1): test negative log-likelihood, mean (sd) over
+5-fold cross-validation. Transcribed by hand from the PDF; column "Ours" renamed "CDTree".

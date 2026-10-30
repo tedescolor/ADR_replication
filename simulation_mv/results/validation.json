@@ -1,0 +1,36 @@
+{
+ "kcde_awd": 0.6842926101998418,
+ "density_integrals": [
+  0.9999999999999518,
+  0.9999999999999518,
+  0.9999999999999518,
+  0.9999999999988888,
+  0.9999689252611329,
+  0.9999955093747086,
+  0.999999999999952,
+  0.9999999999999516,
+  0.9999964901710039
+ ],
+ "mean_logpdf_authors_samples": -1.9320645759666226,
+ "mean_logpdf_fresh_samples": -1.925942218873021,
+ "floor": {
+  "AWD": 0.17054118536297047,
+  "W1_x_ring": 0.2149098171371892,
+  "W1_x_trans": 0.1545596685461527,
+  "W1_x_blobs": 0.093554524758004
+ },
+ "wrong_model": {
+  "contract_ok": true,
+  "AWD": 1.236996390574041,
+  "excess_nll": 2.022491701823561
+ },
+ "checks": {
+  "metric_reproduces_kcde_0.684": true,
+  "true_density_integrates_to_1": true,
+  "true_density_matches_authors_samples": 1.0,
+  "floor_below_0.25": true,
+  "wrong_model_contract_ok": true,
+  "wrong_model_much_worse": true
+ },
+ "passed": true
+}

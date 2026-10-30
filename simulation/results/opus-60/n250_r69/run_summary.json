@@ -1,0 +1,16 @@
+{
+ "status": "finished",
+ "minutes": 22.7,
+ "backend": "claude",
+ "model": "claude-opus-5-5",
+ "attempts": 1,
+ "errors": [],
+ "num_turns": 33,
+ "usage": {
+  "input_tokens": 60,
+  "cache_creation_input_tokens": 34150,
+  "cache_read_input_tokens": 833164,
+  "output_tokens": 14321
+ },
+ "cost_usd": 0.7264927999999998
+}

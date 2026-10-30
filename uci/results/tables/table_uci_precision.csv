@@ -1,0 +1,15 @@
+,mean,std
+config,opus-60,opus-60
+dataset,,
+NavalPropolsion,-4.456,0.043
+Thermography,0.202,0.059
+concrete,3.107,0.043
+energy,2.768,0.024
+forestfires,2.894,0.254
+localization,-1.053,0.479
+slump,0.947,0.526
+sml2010,2.586,0.111
+superconductivity,3.67,0.052
+support2,0.195,0.076
+synchronous,-4.222,0.142
+toxicity,1.188,0.05

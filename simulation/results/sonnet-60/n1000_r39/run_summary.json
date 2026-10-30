@@ -1,0 +1,16 @@
+{
+ "status": "finished",
+ "minutes": 3.3,
+ "backend": "claude",
+ "model": "claude-sonnet-5-5",
+ "attempts": 1,
+ "errors": [],
+ "num_turns": 9,
+ "usage": {
+  "input_tokens": 18,
+  "cache_creation_input_tokens": 16376,
+  "cache_read_input_tokens": 138317,
+  "output_tokens": 4410
+ },
+ "cost_usd": 0.1373034
+}

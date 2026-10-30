@@ -1,0 +1,18 @@
+Files from https://github.com/NicolaRFranco/CPFN at commit 6327b9188eeb46de3a421e8ce6ad421c90863925
+(Franco & Tedesco, arXiv:2511.14455, Section 4.2 and Table 2), testcases/blobs/:
+  blobs_train.csv  the first 5000 rows of blobs_data.csv (columns Y1 Y2 X1..X5): the training set of both CPFN
+                   (blobs.ipynb: x[:ntrain], ntrain = 5000) and KCDE (Rcode/CKDE_multivariate.R: train[1:5000, ]).
+                   The rest of blobs_data.csv (rows 5001-10000) is not used by the authors and is not included.
+  blobs_test.npy   the fixed test set: array (30, 1000, 7): 30 covariate vectors, 1000 samples of the true Y | X = x
+                   each; last axis = Y1 Y2 X1..X5 (Rcode/generate_multivariate_data.R, set.seed(123), nx = 30).
+  blobs_ckde.npy   the 1000 samples per test x drawn from the authors' KCDE fit (same layout); used only by
+                   scripts/validate.py to check that our metric reproduces the KCDE number of Table 2.
+License: data/LICENSE_CPFN (MIT).
+  blobs_3ex_true.csv  the authors' "3 examples" true samples (Rcode/generate_multivariate_data.R, set.seed(1234)): 1000 samples of
+                   Y | X = x for x_ring_dominant = (2, 1, .5, -.3, -1), x_transition = 0, x_blobs_dom = (-2, -1, -.5, .3, 1).
+                   Not in the repository; regenerated with make_3ex.R (the same R code); the same script reproduces blobs_test.npy
+                   exactly (max abs difference 1e-14), which checks that this R environment gives the authors' random streams.
+  cpfn_blobs.npz   the authors' trained CPFN for this test case (trained/blobs/blobs.npz in the CPFN repository; loaded by
+                   blobs.ipynb with train_cpfn = False). Used only by generate_images/generate_figures.py to draw CPFN samples
+                   for the illustration, via a NumPy re-implementation of generative.PushForward.sample; on the 30 test
+                   covariates it gives avgW1 0.269-0.291 over eight seeds, against 0.278 in Table 2.

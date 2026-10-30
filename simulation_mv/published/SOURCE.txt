@@ -1,0 +1,4 @@
+Table 2 of Franco & Tedesco, arXiv:2511.14455 (multivariate test case, n = 5000, a single run:
+no replicates and no standard deviations). The W1 columns are as printed; the notebook blobs.ipynb
+reproduces the AWD column (0.2784, 0.6843) but its per-x W1 outputs at test indices 0, 5, 10 differ
+from the printed columns (see README).
